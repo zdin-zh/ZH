@@ -2,13 +2,13 @@ from urllib.parse import unquote
 from menu.views import *
 
 from authentication.forms import PostForm
-from messaging.views.messagesObj import MessagesObj
-from smzedahapp.models import BaseProfile,Post,Profile,Account,SignupForm,Friends,Messages,SavedMessages,Notifications
-from friends.views import *
+
+from smzh.models import BaseProfile,Post,Profile,Account
+
 from django.views.generic import View
 from django.shortcuts import render,redirect
 from django.http import HttpResponseRedirect
-from .services import ZedahServices
+
 
 
 
