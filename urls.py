@@ -1,4 +1,4 @@
-"""Zedah URL Configuration
+
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -27,7 +27,6 @@ from authentication.views import home_page
 
 from authentication.views import upload
 
-#from messaging.views import edit_message
 
 
 
